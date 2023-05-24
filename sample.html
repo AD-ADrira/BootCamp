@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Assignment solution for Module 2</title>
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  /* box-sizing: content-box; */
+}
+h1 {
+  margin-bottom: 15px;text-align: center;
+}
+
+div {
+  /* clear: right;*/
+  background-color: #AAAAAA;
+  margin-right: 2%;
+}
+section{
+  clear: right;
+  padding: 8px;
+}
+
+/* #h21 {
+  background-color: #EE99AA;
+} */
+#h21 {
+  margin-top: 0px;
+  border: 1px solid black;  width: auto;text-align: right;float:right;padding:10px 5px 10px 5px;
+  background-color: #EE99AA;
+}
+#h22 {
+  margin-top: 0px;
+  border: 1px solid black;  width: auto;text-align: right;float:right;padding:10px 5px 10px 5px;
+  background-color: #99FFAA;
+}
+#h23 {
+  margin-top: 0px;
+  border: 1px solid black;  width: auto;text-align: right;float:right;padding:10px 5px 10px 5px;
+  background-color: #9999FF;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    border: 1px solid black;
+    /* margin: 15px; */
+    /* padding: 0px 0px 10px 10px; */
+    margin-bottom: 10px;
+  }
+  .col-lg-4 {
+    width: 31%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+    border: 1px solid black;
+    /* margin: 15px; */
+    /*margin: auto; */
+    /* padding: 0px 0px 10px 10px; */
+    margin-bottom: 10px;
+  } 
+  .col-md-6 {
+    width: 48%;
+  }
+  .col-md-12 {
+    width: 98%;
+  }
+}
+@media  (max-width: 767px) {
+  .col-sd-12 {
+    float: left;
+    border: 1px solid black;
+    /* margin: 15px; */
+    width: 100%;
+    /* padding: 0px 0px 10px 10px; */
+    margin-bottom: 10px;
+  }
+}
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<div class="col-lg-4 col-md-6 col-sd-12"><h2 id="h21">Chicken</h2>
+<section> Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo  Bonjour texte de demo  Bonjour texte de demo  Bonjour texte de demo  Bonjour texte de demo  Bonjour texte de demo  Bonjour texte de demo  Bonjour texte de demo  Bonjour texte de demo  Bonjour texte de demo  Bonjour texte de demo  Bonjour texte de demo </section></div>
+<div class="col-lg-4 col-md-6 col-sd-12"><h2 id="h22">Beef</h2>
+<section> Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo </section></div>
+<div class="col-lg-4 col-md-12 col-sd-12"><h2 id="h23">Sushi</h2>
+<section> Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo Bonjour texte de demo </section></div>
+
+</body>
+</html>
+ 
